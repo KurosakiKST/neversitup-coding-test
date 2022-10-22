@@ -1,3 +1,25 @@
 <resources>
     <string name = "app_name">CodingTest</string>
+
+    <!-- titles -->
+    <string name = "title_home">Home</string>
+    <string name = "title_history">History</string>
+    <string name = "label_empty_string">---</string>
+    <string name = "label_history_recorded">History recorded</string>
+    <string name = "label_date_time">Date Time</string>
+    <string name = "label_usd">USD</string>
+    <string name = "label_gbp">GBP</string>
+    <string name = "label_eur">EUR</string>
+    <string name = "label_current_price_for">Current Price for</string>
+    <string name = "label_check_price_in">Check Price in</string>
+    <string name = "label_enter_amount_to_check">Enter amount to check</string>
+    <string name = "label_btn_check">Check</string>
+    <string name = "label_input_amount_in">Input amount in</string>
+
+    <string-array name = "bpis">
+        <item>USD</item>
+        <item>GBP</item>
+        <item>EUR</item>
+    </string-array>
+
 </resources>
