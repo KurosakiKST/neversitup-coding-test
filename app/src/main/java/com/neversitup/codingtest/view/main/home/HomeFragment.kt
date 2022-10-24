@@ -93,11 +93,11 @@ class HomeFragment : Fragment() {
 
                         val formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss")
                         val currentTime = LocalDateTime.now().format(formatter)
-                        val record = Record(0,
-                            currentTime,
-                            it.bpi.USD.rate,
-                            it.bpi.GBP.rate,
-                            it.bpi.EUR.rate
+                        val record = Record(
+                            timestamp = currentTime,
+                            usdValue = it.bpi.USD.rate,
+                            gbpValue = it.bpi.GBP.rate,
+                            eurValue = it.bpi.EUR.rate
                         )
 
                         viewModel.saveRecord(record)
