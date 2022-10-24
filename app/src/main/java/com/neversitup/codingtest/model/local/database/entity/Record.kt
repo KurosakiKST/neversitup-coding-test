@@ -9,7 +9,7 @@ import java.sql.Timestamp
 @Entity(tableName = "records")
 data class Record(
         @PrimaryKey(autoGenerate = true)
-        val id: Int? = null,
+        val id: Int? = 0,
         @ColumnInfo(name = "time_stamp")
         val timestamp : String,
         @ColumnInfo(name = "usd_value")
